@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Halcon">
+      <UniqueIdentifier>{90a853e1-8d73-4a16-a5f3-cc3daf45e9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{91993f1c-8f32-4a7e-a319-493869ef49f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml">
+      <UniqueIdentifier>{04b49050-4297-4d74-a04f-2e396f62f954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mfcDlg">
+      <UniqueIdentifier>{5af5aedd-adab-44f2-9c19-e103129051f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\PSAdemo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\PSAdemo.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PSAdemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PSAdemoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Halcon\CalgorithmRegion.h">
+      <Filter>Halcon</Filter>
+    </ClInclude>
+    <ClInclude Include="Halcon\HalconBmp.h">
+      <Filter>Halcon</Filter>
+    </ClInclude>
+    <ClInclude Include="Halcon\HalconTool.h">
+      <Filter>Halcon</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\PublicTool.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml\Markup.h">
+      <Filter>Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="mfcDlg\MassageDlg.h">
+      <Filter>mfcDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="mfcDlg\ModelBuildDlg.h">
+      <Filter>mfcDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="mfcDlg\readme.h">
+      <Filter>mfcDlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PSAdemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PSAdemoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Halcon\CalgorithmRegion.cpp">
+      <Filter>Halcon</Filter>
+    </ClCompile>
+    <ClCompile Include="Halcon\HalconBmp.cpp">
+      <Filter>Halcon</Filter>
+    </ClCompile>
+    <ClCompile Include="Halcon\HalconTool.cpp">
+      <Filter>Halcon</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\PublicTool.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml\Markup.cpp">
+      <Filter>Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="mfcDlg\MassageDlg.cpp">
+      <Filter>mfcDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="mfcDlg\ModelBuildDlg.cpp">
+      <Filter>mfcDlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PSAdemo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
