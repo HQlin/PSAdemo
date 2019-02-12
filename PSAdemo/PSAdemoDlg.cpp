@@ -289,6 +289,12 @@ void CPSAdemoDlg::OnBnClickedBtnAdd()
 {
 	//新添模板
 	UpdateData(true);
+	m_AddName.Trim();//去掉首尾空格
+	if(0==m_AddName.GetLength())
+	{
+		AfxMessageBox(L"新建底板模板名称不能为空或空格");
+		return;
+	}
 	//新建底板模板
 	if(!g_pCalgorithmRegion->AddDownModel(m_AddName, DownParameter))
 	{
